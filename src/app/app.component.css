@@ -1,0 +1,15 @@
+.body {
+height: 100vh;
+
+}
+
+.brand-name  {
+
+margin: 1rem;
+
+}
+
+.content {
+  height: 100vh;
+  border : solid 1px black;
+}

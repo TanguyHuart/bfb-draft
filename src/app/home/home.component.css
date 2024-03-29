@@ -1,0 +1,20 @@
+.draft {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+ 
+}
+
+.draft-team {
+  border: solid 1px black;
+  flex-grow: 0.5;
+  height: 50vh;
+ }
+
+ .draft-picks {
+  border: solid 1px black;
+  flex-grow: 1;
+  height: 80vh;
+ }
+

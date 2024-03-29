@@ -1,0 +1,195 @@
+
+  [
+    {
+      "id" : 1,
+      "name" : "Agatha",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Agatha/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 2,
+      "name" : "Baldwin",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Baldwin/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 3,
+      "name" : "Boreas",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Boreas/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 4,
+      "name" : "Caligar",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Caligar/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 5,
+      "name" : "Ceralin",
+      "type" : "",
+   "figure_url" : "assets/heros/Cards/Ceralin/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 6,
+      "name" : "Cynthia",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Cynthia/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 7,
+      "name" : "Cyrus",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Cyrus/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Dazeem",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Dazeem/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Dolgolae",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Dolgolae/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Felix",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Felix/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Ken Obi",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Ken Obi/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Kerrick",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Kerrick/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Kunoichi",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Kunoichi/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Longshanks",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Longshanks/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Motley",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Motley/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Runika",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Runika/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Sedusa",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Sedusa/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Sterling",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Sterling/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    },{
+      "id" : 1,
+      "name" : "Vladiator",
+      "type" : "",
+      "figure_url" : "assets/heros/Cards/Vladiator/figure.png",
+      "herocard_url" : "",
+      "acard_url" : "",
+      "bcard_url":  "",
+      "ccard_url" : "",
+      "zcard_url" : ""
+    }
+  ]
+

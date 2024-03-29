@@ -1,11 +1,28 @@
 <div class="draft">
   <section class="draft-team">
-    joueur A
+    <div class="draft-team__picks">
+      joueur A
+    </div>
+    <div class="draft-team__bans">
+Bans
+    </div>
+
   </section>
-  <section class="draft-picks">
-    heros
+  <section class="heros">
+    <div class="heros-list">
+      <div class="heros-figure" *ngFor = "let hero of herosList" >
+        <img class="heros-figure__img" [src]= "hero.figure_url" />
+      </div>
+    </div>
+    <div class="heros-infos"></div>
   </section>
   <section class="draft-team">
-    joueur B
+    <div class="draft-team__picks">
+      joueur B
+    </div>
+    <div class="draft-team__bans">
+Bans
+    </div>
+
   </section>
 </div>

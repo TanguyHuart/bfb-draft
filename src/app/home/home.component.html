@@ -1,27 +1,71 @@
+<div class="instruction_header">Message pour les joueurs
+  <div *ngIf="heroSelected && pickphase && blueteamturn" >
+    <button (click)="addHeroToTeam(heroSelected.id)" type="button" class="validate_button"> Valider</button>
+          </div>
+          <div *ngIf="heroSelected && banphase && blueteamturn" >
+            <button (click)="addBannedHero(heroSelected.id)" class="validate_button" type="button"> Valider</button>
+                  </div>
+                  <div *ngIf="heroSelected && pickphase && !blueteamturn" class="button_container" >
+                    <button (click)="addHeroToTeam(heroSelected.id)" class="validate_button" type="button"> Valider</button>
+                          </div>
+
+                          <div *ngIf="heroSelected && banphase && !blueteamturn" >
+                            <button (click)="addBannedHero(heroSelected.id)" class="validate_button" type="button"> Valider</button>
+                                  </div>
+</div>
 <div class="draft">
   <section class="draft-team">
     <div class="draft-team__picks">
-      joueur A
+      <p class="blue-team"> Blue Team</p>
+      <div class="draft-team__picks-figure">
+        <img class="heros-cards__miniature" *ngFor= "let hero of teamA" [src]="hero.figure_url" alt="herocard">
+      </div>
+
+      
     </div>
     <div class="draft-team__bans">
+
 Bans
+<div class="draft-team__bans-figure">
+  <img class="heros-cards__miniature" *ngFor= "let hero of banA" [src]="hero.figure_url" alt="herocard">
+</div>
+
     </div>
 
   </section>
   <section class="heros">
     <div class="heros-list">
-      <div class="heros-figure" *ngFor = "let hero of herosList" >
-        <img class="heros-figure__img" [src]= "hero.figure_url" />
+      <div class="heros-figure" *ngFor = "let hero of herosList">
+        <img class="heros-figure__img" (click) = "selectHero(hero.id)"[src]= "hero.figure_url" />
       </div>
     </div>
-    <div class="heros-infos"></div>
+    <div class="heros-infos">
+      <div class="heros-cards" *ngIf = "heroSelected">
+       
+      <img class="heros-cards__img" [src]="heroSelected.herocard_url" alt="herocard">
+      <img class="heros-cards__img" [src]="heroSelected.acard_url" alt="acard"> 
+      <img class="heros-cards__img" [src]="heroSelected.bcard_url" alt="bcard"> 
+      <img class="heros-cards__img" [src]="heroSelected.ccard_url" alt="ccard">
+      <img class="heros-cards__img" [src]="heroSelected.zcard_url" alt="zcard">
+
+      </div>
+    </div>
   </section>
   <section class="draft-team">
     <div class="draft-team__picks">
-      joueur B
+      <p class="red-team"> Red Team</p>
+      <div class="draft-team__picks-figure">
+        <img class="heros-cards__miniature" *ngFor= "let hero of teamB" [src]="hero.figure_url" alt="herocard">
+      </div>
+   
+      
     </div>
     <div class="draft-team__bans">
 Bans
+<div class="draft-team__bans-figure">
+  <img class="heros-cards__miniature" *ngFor="let hero of banB" [src]="hero.figure_url" alt="herocard">
+</div>
+
     </div>
 
   </section>

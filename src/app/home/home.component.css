@@ -122,13 +122,14 @@ height: 30%;
 
 }
 
+.heros-figure__img {
+  width: 7rem;
+}
+
  .heros-figure :hover {
   scale: 1.1;
-  transition: scale 300ms;
-
-  border: solid 2px #f6ec25;
-  border-radius: 45px 45px 15px 15px;
-
+  transition: 200ms;
+  filter: drop-shadow(0 0 0.75rem #f6ec25);
  }
 
  .heros-list {
@@ -188,4 +189,9 @@ scale: 1.5;
   color: #291d39;
   background-color: #faa21e;
   font-family: "Silkscreen", sans-serif;
+ }
+
+ .validate_button:hover {
+  transition: 300ms;
+  scale: 1.1;
  }

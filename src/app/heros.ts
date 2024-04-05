@@ -1,7 +1,7 @@
 export type THeros = {
   id : number  
 name : string,
-type : string, 
+set : string, 
 figure_url : string,
 herocard_url : string,
 acard_url : string,

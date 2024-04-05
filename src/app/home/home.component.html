@@ -37,6 +37,7 @@ Bans
       <div class="heros-figure" *ngFor = "let hero of herosList">
         <img class="heros-figure__img" (click) = "selectHero(hero.id)"[src]= "hero.figure_url" />
       </div>
+     
     </div>
     <div class="heros-infos">
       <div class="heros-cards" *ngIf = "heroSelected">

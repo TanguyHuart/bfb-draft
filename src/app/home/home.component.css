@@ -1,7 +1,35 @@
-.instruction_header {
- justify-content: center;
-  display: flex;
+.instruction__header {
+ display: flex;
+ align-items: center;
+ height: 2rem;
   gap: 2rem;
+}
+
+.instruction__header.blue {
+  justify-content: flex-start;
+  margin: auto 2rem;
+}
+.instruction__header.red {
+  justify-content: flex-end;
+  margin: auto 2rem;
+}
+
+.instruction__header-text {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+}
+
+.instruction-team--blue {
+
+  color: #4cbbfc;
+
+}
+
+.instruction-team--red {
+  color: #e42e2e;
+
 }
 
 .draft {
@@ -37,15 +65,15 @@ background-color: #291d39;
  }
 
  .blue-team {
-  color: rgb(76, 187, 252);
+  color: #4cbbfc;
   text-transform: uppercase;
-  font-weight: bold;
+
   font-size: 1.5rem;
  }
  .red-team {
-  color: rgb(228, 46, 46);
+  color: #e42e2e;
   text-transform: uppercase;
-  font-weight: bold;
+
   font-size: 1.5rem;
  }
 
@@ -159,4 +187,5 @@ scale: 1.5;
   border-radius: 3px;
   color: #291d39;
   background-color: #faa21e;
+  font-family: "Silkscreen", sans-serif;
  }

@@ -32,6 +32,7 @@ this.heroSelected = this.herosList.find((hero) => hero.id === id)
  }
 
  addBannedHero(id : number) {
+  this.herosList = this.herosList.filter((hero) => hero.id !== this.heroSelected?.id)
   if(this.blueteamturn && this.heroSelected) {
     this.banA.push(this.heroSelected)
     this.heroSelected = undefined
@@ -58,6 +59,7 @@ this.heroSelected = this.herosList.find((hero) => hero.id === id)
  }
 
  addHeroToTeam( id : number) {
+  this.herosList = this.herosList.filter((hero) => hero.id !== this.heroSelected?.id)
   if (this.blueteamturn && this.heroSelected) {
     this.teamA.push(this.heroSelected)
     this.heroSelected = undefined
@@ -87,6 +89,7 @@ if(this.teamA.length === 1 || this.teamA.length === 4) {
      if (this.teamB.length === 4) {
       this.pickphase = false
       this.banphase = false
+      this.heroSelected = undefined
      }
   }
  }

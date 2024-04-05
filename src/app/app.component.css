@@ -1,15 +1,34 @@
+
 .body {
-  background-color: #291d39;
+background-color: #291d39;
 height: 100vh;
+font-family: "Silkscreen", sans-serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
 .brand-name  {
-
+display: flex;
+align-items: flex-start;
+justify-content: center;
 height: 10%;
 }
 
 .content {
 height: 90% ;
 
+}
+
+.app-title {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.bfb-logo {
+  width: 20rem;
+  
 }

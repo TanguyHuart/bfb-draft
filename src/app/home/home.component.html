@@ -1,17 +1,16 @@
-<div class="instruction_header">Message pour les joueurs
-  <div *ngIf="heroSelected && pickphase && blueteamturn" >
-    <button (click)="addHeroToTeam(heroSelected.id)" type="button" class="validate_button"> Valider</button>
-          </div>
-          <div *ngIf="heroSelected && banphase && blueteamturn" >
-            <button (click)="addBannedHero(heroSelected.id)" class="validate_button" type="button"> Valider</button>
-                  </div>
-                  <div *ngIf="heroSelected && pickphase && !blueteamturn" class="button_container" >
-                    <button (click)="addHeroToTeam(heroSelected.id)" class="validate_button" type="button"> Valider</button>
-                          </div>
-
-                          <div *ngIf="heroSelected && banphase && !blueteamturn" >
-                            <button (click)="addBannedHero(heroSelected.id)" class="validate_button" type="button"> Valider</button>
-                                  </div>
+<div class="instruction__header {{blueteamturn ? 'blue' : 'red'}}">
+  <p *ngIf="pickphase || banphase" class="instruction__header-text">
+    <span class="{{blueteamturn ? 'instruction-team--blue' : 'instruction-team--red'}}">{{blueteamturn ? 'Blue' : 'Red'}}</span> 
+    your turn to 
+    <span class="instruction-phase"> {{banphase ? 'BAN' : 'PICK'}}</span>
+  </p>
+  <div *ngIf="heroSelected && pickphase " >
+    <button (click)="addHeroToTeam(heroSelected.id)" type="button" class="validate_button"> Validate</button>
+  </div>
+  <div *ngIf="heroSelected && banphase" >
+    <button (click)="addBannedHero(heroSelected.id)" class="validate_button" type="button"> Validate</button>
+  </div>
+ 
 </div>
 <div class="draft">
   <section class="draft-team">

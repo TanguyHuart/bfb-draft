@@ -8,7 +8,10 @@ import { HomeComponent } from './home/home.component';
   template: `
     <body class="body">
     <header class="brand-name">
-   <p> Bfb Draft</p>
+      <a href="/">
+      <img class="bfb-logo" src="assets/bfb-logo.png" alt="bfb-logo">
+      </a>
+
     </header>
     <main class="content">
       <app-home></app-home>
